@@ -25,7 +25,8 @@ This is TripleBrain written in C#, divided into two folders：
    Program.cs: 
    main function entry.
 
-2. Tools 
+2. Tools                                                                                                                         
+
   visual studio 2019 and above (preferably 2019)
   matlab
 
