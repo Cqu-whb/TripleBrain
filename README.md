@@ -2,6 +2,7 @@
 Triplebrain fixed-point and floating-point algorithms
 
 
+
 1. Folder Description
 This is TripleBrain written in C#, divided into two folders：
 "Fixed_Point": an algorithm based on floating point implementation;
@@ -22,12 +23,15 @@ SOM-RSTDP_Model.cs:
 Program.cs: 
 main function entry.
 
+
 2. Tools
 visual studio 2019 and above (preferably 2019)
 matlab
 
+
 3.operate
 After modifying the relevant parameters, you can directly run
+
 
 4. Pay attention
 Due to the modification of some parameters, the recognition accuracy of some DataSet is slightly different from the data of the paper. Please refer to the latest parameters.
