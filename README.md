@@ -26,9 +26,8 @@ This is TripleBrain written in C#, divided into two folders：
    main function entry.
 
 2. Tools                                                                                                                         
-
-  visual studio 2019 and above (preferably 2019)
-  matlab
+   visual studio 2019 and above (preferably 2019)
+   matlab
 
 3. operate  
 After modifying the relevant parameters, you can directly run
