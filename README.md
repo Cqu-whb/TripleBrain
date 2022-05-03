@@ -19,7 +19,7 @@ This is TripleBrain written in C#, divided into two folders：
    PoisionCoding.cs:  
    coding file, used for pulse coding of static images, supports three coding methods (Poisson coding, temporal coding and ISI).
    
-   SOM-RSTDP_Model.cs: 
+   SOM-RSTDP_Model.cs:                                                                                                                                                
    The algorithm part, including training and labeling neurons (if needed) and testing, note that there are also some parameters that need to be changed in this file. 
  
    Program.cs: 
