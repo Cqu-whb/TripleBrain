@@ -1,0 +1,154 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MathNet.Numerics/4.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MathNet.Numerics.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MathNet.Numerics.dll": {}
+        }
+      },
+      "MathNet.Numerics.Data.Matlab/3.2.0": {
+        "type": "package",
+        "dependencies": {
+          "MathNet.Numerics": "3.0.0"
+        },
+        "compile": {
+          "lib/net40/MathNet.Numerics.Data.Matlab.dll": {}
+        },
+        "runtime": {
+          "lib/net40/MathNet.Numerics.Data.Matlab.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MathNet.Numerics/4.7.0": {
+      "sha512": "Nmlzha0Tv/GnBELzUzjdlWrMpSmrAejD8D68A8sPuRpKIZ9Qn+nG5hAQByrich/uRL258P/4YVJ6gYWlsbUAWA==",
+      "type": "package",
+      "path": "mathnet.numerics/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/MathNet.Numerics.dll",
+        "lib/net40/MathNet.Numerics.xml",
+        "lib/net461/MathNet.Numerics.dll",
+        "lib/net461/MathNet.Numerics.xml",
+        "lib/netstandard1.3/MathNet.Numerics.dll",
+        "lib/netstandard1.3/MathNet.Numerics.xml",
+        "lib/netstandard2.0/MathNet.Numerics.dll",
+        "lib/netstandard2.0/MathNet.Numerics.xml",
+        "mathnet.numerics.4.7.0.nupkg.sha512",
+        "mathnet.numerics.nuspec"
+      ]
+    },
+    "MathNet.Numerics.Data.Matlab/3.2.0": {
+      "sha512": "J4/ZzcY0vpgTWwcyoC2+MSeAdJajcmVgNvhEDpcTJC/rVo51jvOEc/jitEFm7TRo27yBzS0coxB1IJAQVrxr1w==",
+      "type": "package",
+      "path": "mathnet.numerics.data.matlab/3.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/MathNet.Numerics.Data.Matlab.dll",
+        "lib/net40/MathNet.Numerics.Data.Matlab.xml",
+        "license.txt",
+        "mathnet.numerics.data.matlab.3.2.0.nupkg.sha512",
+        "mathnet.numerics.data.matlab.nuspec",
+        "readme.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "MathNet.Numerics >= 4.7.0",
+      "MathNet.Numerics.Data.Matlab >= 3.2.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Seaice\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\tbiocas_TripleBrain\\stage1\\stage2\\VS_Dir\\Read_mat\\Read_mat.csproj",
+      "projectName": "Read_mat",
+      "projectPath": "D:\\tbiocas_TripleBrain\\stage1\\stage2\\VS_Dir\\Read_mat\\Read_mat.csproj",
+      "packagesPath": "C:\\Users\\Seaice\\.nuget\\packages\\",
+      "outputPath": "D:\\tbiocas_TripleBrain\\stage1\\stage2\\VS_Dir\\Read_mat\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Seaice\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "MathNet.Numerics": {
+            "target": "Package",
+            "version": "[4.7.0, )"
+          },
+          "MathNet.Numerics.Data.Matlab": {
+            "target": "Package",
+            "version": "[3.2.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“.NETCoreApp,Version=v3.1”还原包“MathNet.Numerics.Data.Matlab 3.2.0”。此包可能与项目不完全兼容。",
+      "libraryId": "MathNet.Numerics.Data.Matlab",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
