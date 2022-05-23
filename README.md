@@ -1,8 +1,8 @@
 1. Folder Description
-  This is TripleBrain written in C#, divided into two folders：
+  This is TripleBrain written in C# and Matlab, divided into two folders：
   "Fixed_Point": an algorithm based on floating point implementation;
   "FloatPoint":   an algorithm based on fixed point implementation.
-
+  "Image_Proc_Code": Image (including static image and DVS dataset) preprocessing script, including static image downsampling, DOG                                   filtering and AER preprocessing of DVS dataset
 
   In order to conduct a more direct test on the 8 datasets of MNIST, ETH-80, ORL-10, ORL-10-ext, Yale-10, N-MNIST, Poker-DVS also called Cards-DVS, Posture-DVS, at the same time, to display its parameters more intuitively, we respectively include 8 folders in "Fixed_Point" and "FloatPoint".
   Under the "Fixed_Point" folder, there are 8 folders as follows:
@@ -24,7 +24,8 @@ The Fixed_Point\TripleBrain_MNIST folder contains 6 folders, as follows:
     3) 3_all-pair R-SOM-STDP
     4) 4_nearest-pair R-SOM-STDP
  Intermediate data and results
-    5) Result
+    5) DataSet
+    6) Result
 
     Folders 1) to 4): describes the TripleBrain algorithm, including two modes (all-pair and nearest-pair) configurable SOM-STDP & R-STDP and R-SOM-STDP. The related files are described as follows:
     Parameter.cs:  
@@ -38,6 +39,8 @@ The Fixed_Point\TripleBrain_MNIST folder contains 6 folders, as follows:
 
     Program.cs: 
     main function entry.
+
+  "DataSet": Describes the processed DVS dataset or static image and its encoding file, the visualization code file "WeightVisable.m" written by matlab and the visualized image "Total.bmp", other related training obtained model parameters and prediction files, etc.
 
   "Result": Stores the final recognition accuracy of two algorithms and two modes.
 
