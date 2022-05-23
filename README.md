@@ -1,7 +1,7 @@
 1. Folder Description
-  This is TripleBrain written in C# and Matlab, divided into two folders：
+  This is TripleBrain written in C# and Matlab, divided into two folders:
   "Fixed_Point": an algorithm based on floating point implementation;
-  "FloatPoint":   an algorithm based on fixed point implementation.
+  "FloatPoint":   an algorithm based on fixed point implementation;
   "Image_Proc_Code": Image (including static image and DVS dataset) preprocessing script, including static image downsampling, DOG                                   filtering and AER preprocessing of DVS dataset
 
   In order to conduct a more direct test on the 8 datasets of MNIST, ETH-80, ORL-10, ORL-10-ext, Yale-10, N-MNIST, Poker-DVS also called Cards-DVS, Posture-DVS, at the same time, to display its parameters more intuitively, we respectively include 8 folders in "Fixed_Point" and "FloatPoint".
